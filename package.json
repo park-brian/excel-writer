@@ -1,0 +1,35 @@
+{
+  "name": "excel-writer",
+  "version": "1.0.0",
+  "description": "A simple excel writer for the browser and node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/park-brian/excel-writer.git"
+  },
+  "keywords": [
+    "excel",
+    "xlsx",
+    "writer"
+  ],
+  "author": "park-brian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/park-brian/excel-writer/issues"
+  },
+  "homepage": "https://github.com/park-brian/excel-writer#readme",
+  "devDependencies": {
+    "@types/jszip": "^3.1.2",
+    "mocha": "^4.0.1",
+    "raw-loader": "^0.5.1",
+    "ts-loader": "^3.2.0",
+    "webpack": "^3.9.1",
+    "webpack-dev-server": "^2.9.5"
+  },
+  "dependencies": {
+    "jszip": "^3.1.5"
+  }
+}
